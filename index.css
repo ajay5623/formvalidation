@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+} 
+body{
+  height: 100vh;
+  width: 100wh;
+  position: relative;
+  background-color: cadetblue;
+}
+
+
+.container{
+   width:(100-65)vw ;
+   height:90%;
+   background-image:url(contain-img.png);
+   
+   position: absolute;
+
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% ,-50%);
+   border: 2px solid black;
+  }
+ h1{
+  text-align: center;
+ }
+  .labelval{
+  margin-left: 16px;
+  font-size: 20px;
+ }
+ .inputv{
+  margin-left: 20px;
+  width: 85%;
+  height: 20px;
+ }
+
+i{
+position: absolute;
+right:50px;
+margin-top:8px;
+visibility: hidden;
+
+}
+
+ small{
+  margin-left: 20px;
+  visibility: hidden;
+  color: red;
+
+ }
+ .uploadResume{
+  margin-left: 20px;
+  font-size: 20px;
+}
+#submit{
+  margin-left: 20px;
+  width: 85%;
+  height: 25px;
+  text-align: center;
+  font-size: 20px;
+  margin-top:20px;
+  background-color:black;
+  color: white;
+}
+
+
+
+
+
+ .form-cantainerror input{
+  border: 3px solid red;
+
+ 
+}
+.form-cantainerror #errorimg {
+  visibility: visible;
+
+  
+  
+}
+.form-cantainerror small{
+  visibility: visible;
+}  
+
+.form-cantainsucess input{
+ 
+  border: 3px solid green;
+ 
+ 
+ }
+ .form-cantainsucess #suceesimg{
+  visibility: visible;
+   width: 20px;
+   background-color:green;
+   color:white;
+ }
